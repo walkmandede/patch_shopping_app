@@ -1,6 +1,6 @@
-# Flutter Shopping App
+# Patch Shopping App
 
-A modern, feature-rich shopping app built with Flutter. This app allows users to browse products, add them to a cart, and make purchases seamlessly.
+A modern, feature-rich shopping app built with Flutter. This app allows users to browse products by any desired methods like searching, sorting or filtering by categories.
 
 ---
 
@@ -25,11 +25,11 @@ This project demonstrates how to build a scalable and maintainable Flutter app f
 
 ## Features
 
-- User authentication (Google and email/password)
-- Product listing with categories
-- Add to cart and checkout functionality
-- Push notifications for order updates
-- Light and dark themes
+- Browse top 50 products
+- Search products by their names
+- Filter products by their categories
+- Sort products by their prices
+- Toggle dark and light theme based on OS preference
 
 ---
 
