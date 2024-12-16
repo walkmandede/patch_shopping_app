@@ -17,7 +17,7 @@ A modern, feature-rich shopping app built with Flutter. This app allows users to
 
 ## Overview
 
-The **Flutter Shopping App** is a cross-platform application designed for online shopping enthusiasts. It features a clean UI, efficient state management using GetX, and Firebase integration for authentication and database management.
+The **Patch Shopping App** is a cross-platform application designed for online shopping enthusiasts. It features a clean UI, efficient state management using Bloc for state management and http for network call handlings.
 
 This project demonstrates how to build a scalable and maintainable Flutter app for e-commerce.
 
