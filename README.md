@@ -73,10 +73,11 @@ To set up the project locally, follow these steps:
 
 ## Tech Stack
 
-- Frontend : Flutter(Dart)
+- Frontend : Flutter(3.27.0), Dart(3.6.0)
 - State Mangement : Bloc
 - Architecture : Customized smaller variant of clean architecture
 - Backend : Fake Store APIs - https://fakestoreapi.com/docs
+- Targeted Running Device - iPhone 16 Plus simulator (iOS 18.0)
 
 ## Folder Structure
 ```bash
