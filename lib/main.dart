@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       routes: RouteUtils().routes,
       home: const GatewayPage(),
       debugShowCheckedModeBanner: false,
-      title: 'Yangon Bus Tracking System - Admin Panel',
+      title: 'Patch Shopping Application',
       locale: const Locale('en', 'EN'),
       theme: AppTheme.lightTheme, // Use the light theme
       darkTheme: AppTheme.darkTheme, // Use the dark theme
@@ -52,11 +52,21 @@ class _GatewayPageState extends State<GatewayPage> {
       appBar: AppBar(
         title: Text("App Entry Page"),
       ),
+      body: Center(
+        child: Text(
+          "App initializing..."
+              "\nPlease wait for a moment!",
+          textAlign: TextAlign.center,
+        ),
+      ),
     );
   }
 
   void initLoad(context) async {
-    await Future.delayed(const Duration(milliseconds: 10));
+    //todo
+    //business logic before entering the app
+    //like setting localizations, navigating to pages based on already being logged in or not
+    await Future.delayed(const Duration(milliseconds: 500));
     try {
       Navigator.of(context).pushNamedAndRemoveUntil(
         RouteUtils.homePage,

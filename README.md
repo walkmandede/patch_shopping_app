@@ -46,6 +46,9 @@ This project demonstrates how to build a scalable and maintainable Flutter app f
 
 ### Products result by the search query
 ![Searching](assets/images/ss_3.png)
+
+### Sample usage
+![Sample](assets/images/ss_final.gif)
 ---
 
 ## Installation
