@@ -1,0 +1,44 @@
+name: patch_shopping_app
+description: "A shopping application for Patch coding test for flutter developer position."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc:
+  http:
+  tuple:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/sfpro/sfpro_thin.otf
+          weight: 400
+        - asset: assets/fonts/sfpro/sfpro_medium.otf
+          weight: 600
+        - asset: assets/fonts/sfpro/sfpro_regular.otf
+          weight: 800
+        - asset: assets/fonts/sfpro/sfpro_bold.otf
+          weight: 900
